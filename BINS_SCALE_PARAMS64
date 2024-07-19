@@ -1,0 +1,515 @@
+<Tags MinVersion="8.0.0" locale="en_US">
+   <Tag name="BINS_SCALE_PARAMS64" type="UdtType">
+      <Property name="typeId"></Property>
+      <Parameters>
+         <Property name="opc_endpoint" type="String"/>
+         <Property name="arrayPos" type="Integer"/>
+      </Parameters>
+      <Tags>
+         <Tag name="BINS_0_" type="Folder">
+            <Tags>
+               <Tag name="JOG_ENABLE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].JOG_ENABLE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_TOLERANCE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].UNDER_TOLERANCE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_WARNING" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].UNDER_WARNING</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_WARNING" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].OVER_WARNING</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_AT_START" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].SCALE_AT_START</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_TARGET" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].SCALE_TARGET</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FULL_SPD_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].FULL_SPD_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_TOLERANCE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].OVER_TOLERANCE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_USED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].SCALE_USED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="GATE_CLOSED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].GATE_CLOSED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_TOLERANCE_ALM" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].UNDER_TOLERANCE_ALM</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_TRGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].DRIBBLE_TRGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="READY" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].READY</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ADJUST_FREEFALL" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].ADJUST_FREEFALL</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].JOG</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG_ON_PRE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].JOG_ON_PRE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_CORRECT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].FREEFALL_CORRECT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_SPEED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].DRIBBLE_SPEED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_TRGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].FREEFALL_TRGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SETTLE_TIME" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].SETTLE_TIME</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].DRIBBLE_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_TOLERANCE_ALM" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].OVER_TOLERANCE_ALM</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].FREEFALL_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ERROR_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].ERROR_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ADJUST_FREEFALL_ENB" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].ADJUST_FREEFALL_ENB</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG_SPEED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].JOG_SPEED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ERR_LOW" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].ERR_LOW</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].FREEFALL_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="MAX_FREEFALL_ADJUST" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].MAX_FREEFALL_ADJUST</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="RUN_ACTUAL" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].RUN_ACTUAL</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="RUN_TARGET" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].RUN_TARGET</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="_ArrayPos" type="AtomicTag">
+                  <Property name="valueSource">memory</Property>
+               </Tag>
+               <Tag name="ERR_HIGH" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].ERR_HIGH</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].DRIBBLE_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="MAX_JOGS" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].MAX_JOGS</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">2</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_COMPLETE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[0].SCALE_COMPLETE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+            </Tags>
+         </Tag>
+         <Tag name="BINS_1_" type="Folder">
+            <Tags>
+               <Tag name="ERROR_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].ERROR_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ADJUST_FREEFALL_ENB" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].ADJUST_FREEFALL_ENB</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="READY" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].READY</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_AT_START" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].SCALE_AT_START</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].DRIBBLE_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_CORRECT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].FREEFALL_CORRECT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_SPEED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].DRIBBLE_SPEED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_TRGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].DRIBBLE_TRGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="GATE_CLOSED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].GATE_CLOSED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].JOG</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_WARNING" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].OVER_WARNING</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="MAX_FREEFALL_ADJUST" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].MAX_FREEFALL_ADJUST</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].FREEFALL_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_TARGET" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].SCALE_TARGET</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="DRIBBLE_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].DRIBBLE_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ERR_HIGH" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].ERR_HIGH</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG_ON_PRE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].JOG_ON_PRE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_TOLERANCE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].UNDER_TOLERANCE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_WARNING" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].UNDER_WARNING</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_USED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].SCALE_USED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="RUN_TARGET" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].RUN_TARGET</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ADJUST_FREEFALL" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].ADJUST_FREEFALL</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="ERR_LOW" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].ERR_LOW</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_TOLERANCE_ALM" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].OVER_TOLERANCE_ALM</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="UNDER_TOLERANCE_ALM" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].UNDER_TOLERANCE_ALM</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_TRGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].FREEFALL_TRGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="OVER_TOLERANCE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].OVER_TOLERANCE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SETTLE_TIME" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].SETTLE_TIME</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="RUN_ACTUAL" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].RUN_ACTUAL</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="_ArrayPos" type="AtomicTag">
+                  <Property name="valueSource">memory</Property>
+               </Tag>
+               <Tag name="FULL_SPD_MODE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].FULL_SPD_MODE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="FREEFALL_WGT" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].FREEFALL_WGT</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="MAX_JOGS" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].MAX_JOGS</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">2</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG_ENABLE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].JOG_ENABLE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="SCALE_COMPLETE" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].SCALE_COMPLETE</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">6</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+               <Tag name="JOG_SPEED" type="AtomicTag">
+                  <Property name="opcItemPath" boundValueType="parameter">{opc_endpoint}[1].JOG_SPEED</Property>
+                  <Property name="valueSource">opc</Property>
+                  <Property name="dataType">4</Property>
+                  <Property name="tagGroup">5_minutes</Property>
+                  <Property name="opcServer">Ignition OPC UA Server</Property>
+               </Tag>
+            </Tags>
+         </Tag>
+      </Tags>
+   </Tag>
+</Tags>
